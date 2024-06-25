@@ -13,5 +13,5 @@ body {
     background-position: center;
     width: 110vw;
     height: 110vh;
-    filter: blur(4px);
+    filter: blur(4px) brightness(80%);
 }
