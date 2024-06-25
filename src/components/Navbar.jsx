@@ -14,7 +14,6 @@ function Navbar() {
             <Link to={'/home'}>Home</Link>
             <Link to={'/chars'}>Characters</Link>
             <Link to={'/aeons'}>Aeons</Link>
-            <Link to={'/enemy'}>Enemies</Link>
         </div>
     )
 }

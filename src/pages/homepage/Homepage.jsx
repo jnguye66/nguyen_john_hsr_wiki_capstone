@@ -1,11 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // Components
 import Navbar from '../../components/Navbar';
 import Header from '../../components/Header';
 
 // Images
-import hsr_banner from '../../images/hsr_1.0_banner.png'
+import hsr_banner from '../../images/hsr_1.0_banner.png';
+import tb_pfp from '../../images/pfps/tb_pfp.png';
+import m7_pfp from '../../images/pfps/m7_pfp.png';
+import dan_pfp from '../../images/pfps/dan_pfp.png';
+import himeko_pfp from '../../images/pfps/himeko_pfp.png';
+import welt_pfp from '../../images/pfps/welt_pfp.png';
 
 // Styles
 import '../../styles/Homepage.css'
@@ -45,8 +51,34 @@ function Homepage() {
 
                             <div id='about'>
                                 <h3>About the Game</h3>
-                                <p><a href="https://hsr.hoyoverse.com/en-us/">Honkai: Star Rail</a> is a turn based strategy RPG title created by the makers of Genshin Impact and Honkai Impact, Hoyoverse. Come aboard  the Astral Express and explore through the endless reaches of the universe filled with adventures and thrills.</p>
-                                <p>This wiki is an English resource for information about the Global version of the game. There are <span>unmakred spoilers</span> on this wiki.</p>
+                                <p><a href="https://hsr.hoyoverse.com/en-us/">Honkai: Star Rail</a> is a turn based strategy RPG title created by the makers of <a href="https://genshin.hoyoverse.com/en/">Genshin Impact</a> and <a href="https://honkaiimpact3.hoyoverse.com/global/en-us/fab">Honkai Impact</a>, Hoyoverse. Come aboard  the Astral Express and explore through the endless reaches of the universe filled with adventures and thrills.</p>
+                                <p>This wiki is an English resource for information about the Global version of the game. There are <span id='spoilers'>unmarked spoilers</span> on this wiki.</p>
+                            </div>
+
+                            <div id='home-chars'>
+                                <Link to={'/chars'}><h3>Characters</h3></Link>
+                                <div id='grid-chars'>
+                                    <div id='box-char'>
+                                        <img src={tb_pfp} alt="Trailblazer" />
+                                        <p>Trailblazer</p>
+                                    </div>
+                                    <div id='box-char'>
+                                        <img src={m7_pfp} alt="March 7th" />
+                                        <p>March 7th</p>
+                                    </div>
+                                    <div id='box-char'>
+                                        <img src={dan_pfp} alt="Dan Heng" />
+                                        <p>Dan Heng</p>
+                                    </div>
+                                    <div id='box-char'>
+                                        <img src={himeko_pfp} alt="Himeko" />
+                                        <p>Himeko</p>
+                                    </div>
+                                    <div id='box-char'>
+                                        <img src={welt_pfp} alt="Welt Yang" />
+                                        <p>Welt Yang</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
