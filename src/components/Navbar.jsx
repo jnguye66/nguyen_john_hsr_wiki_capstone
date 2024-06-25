@@ -1,12 +1,6 @@
 import React from 'react';
 import { Route, Routes, Link } from 'react-router-dom';
 
-// Page Imports
-import Homepage from '../pages/homepage/Homepage';
-import Characters from '../pages/characters/Characters';
-import Enemies from '../pages/enemy/Enemies';
-import Aeons from '../pages/aeons/Aeons';
-
 import '../styles/Navbar.css'
 
 function Navbar() {

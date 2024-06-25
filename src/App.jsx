@@ -10,12 +10,15 @@ import './styles/App.css'
 
 function App() {
   return (
-    <Routes>
-      <Route path='/home/*' element={<Homepage />} />
-      <Route path='/chars' element={<Characters />} />
-      <Route path='/enemy' element={<Enemies />} />
-      <Route path='/aeons' element={<Aeons />} />
-    </Routes>
+    <>
+      <div className='bg'></div>
+      <Routes>
+        <Route path='/home/*' element={<Homepage />} />
+        <Route path='/chars' element={<Characters />} />
+        <Route path='/enemy' element={<Enemies />} />
+        <Route path='/aeons' element={<Aeons />} />
+      </Routes>
+    </>
   )
 }
 
