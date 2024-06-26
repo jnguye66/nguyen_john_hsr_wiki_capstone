@@ -58,7 +58,7 @@ function Homepage() {
                             <div id='home-chars'>
                                 <Link to={'/chars'}><h3>Characters</h3></Link>
                                 <div id='grid-chars'>
-                                    <Link to={'/chars/667bc2a2c026d5d119784bb6'} style={{ textDecorationColor: 'none' }}>
+                                    <Link to={'/chars/667bc2a2c026d5d119784bb6'} >
                                         <div id='box-char'>
                                             <img src={tb_pfp} alt="Trailblazer" />
                                             <p>Trailblazer</p>
