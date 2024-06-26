@@ -62,7 +62,7 @@
 }
 
 #links {
-    border: red solid 1px;
+    /* border: red solid 1px; */
     width: 750px;
     height: 200px;
     margin-left: auto;
@@ -96,12 +96,12 @@ a {
 }
 
 a:link {
-    color: rgb(15, 41, 185);
+    color: rgb(73, 187, 231);
     text-decoration: none;
 }
 
 a:visited {
-    color: rgb(73, 187, 231);
+    color: rgb(150, 165, 172);
     text-decoration: none;
 }
 
