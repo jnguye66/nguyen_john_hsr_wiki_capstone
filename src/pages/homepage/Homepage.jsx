@@ -58,10 +58,12 @@ function Homepage() {
                             <div id='home-chars'>
                                 <Link to={'/chars'}><h3>Characters</h3></Link>
                                 <div id='grid-chars'>
-                                    <div id='box-char'>
-                                        <img src={tb_pfp} alt="Trailblazer" />
-                                        <p>Trailblazer</p>
-                                    </div>
+                                    <Link to={'/chars/667ba3fdaf902e0e298268cf'} style={{textDecorationColor: 'none'}}>
+                                        <div id='box-char'>
+                                            <img src={tb_pfp} alt="Trailblazer" />
+                                            <p>Trailblazer</p>
+                                        </div>
+                                    </Link>
                                     <div id='box-char'>
                                         <img src={m7_pfp} alt="March 7th" />
                                         <p>March 7th</p>
