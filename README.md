@@ -1,5 +1,4 @@
-
-#Honkai: Star Rail Wiki
+Honkai: Star Rail Wiki
 --------------------------------------------------------------------
 This is a wiki containing information all about the space fantasy
 turn based RPG created by Hoyoverse, Honkai: Star Rail.
